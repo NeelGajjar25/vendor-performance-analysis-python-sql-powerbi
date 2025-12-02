@@ -1,4 +1,15 @@
-Business Problem
+## Table of Contents
+- <a href="#business-problem">Business Problem</a>
+- <a href="#exploratory-data-analysis-insights">Exploratory Data Analysis Insights</a>
+- <a href="#initial-data-observations">Initial Data Observations</a>
+- <a href="#data-filtering">Data Filtering</a>
+- <a href="#correlation-insights">Correlation Insights</a>
+- <a href="#repository-structure">Repository Structure</a>
+- <a href="#research-questions-key-findings">Research Questions & Key Findings</a>
+- <a href="#further-recommendations">Further Recommendations</a>
+
+
+<h2><a id="business-problem"></a>📌 Business Problem</h2>
 
 - The objective of this analysis is to optimize inventory, vendor performance, and sales profitability in the retail/wholesale industry.
 
@@ -14,7 +25,7 @@ Key goals include:
 
 - Understanding profitability differences across vendors
 
-📊 Exploratory Data Analysis Insights
+<h2><a id="exploratory-data-analysis-insights"></a>📊 Exploratory Data Analysis Insights</h2>
 
 - Large dataset summarizing Vendor, Brand, Sales, Purchases, Profit, Inventory, and Pricing.
 
@@ -26,7 +37,7 @@ Key Issues Identified:
 
 - Extreme value outliers in freight cost, purchase price, and actual price
 
-🔎 Initial Data Observations
+<h2><a id="initial-data-observations"></a>🔎 Initial Data Observations</h2>
 
 - Freight cost: Huge variation (0.09 → 257,032) indicates inconsistent logistics efficiency
 
@@ -34,7 +45,7 @@ Key Issues Identified:
 
 - High turnover >1 suggests older inventory fulfilling customer demands
 
-🧹 Data Filtering
+<h2><a id="data-filtering"></a>🧹 Data Filtering</h2>
 
 To ensure analysis quality, records were filtered to remove:
 
@@ -46,7 +57,7 @@ Total Sales Quantity = 0
 
 This removed loss-making or unsold products for clearer insights.
 
-📈 Correlation Insights
+<h2><a id="correlation-insights"></a>📈 Correlation Insights</h2>
 
 - Purchase Price vs Sales/Gross Profit: very weak (−0.012, −0.016)
 
@@ -56,7 +67,11 @@ This removed loss-making or unsold products for clearer insights.
 
 - Stock Turnover vs Profitability: weak negative correlation
 
-🧪 Research Questions & Key Findings
+<h2><a id="repository-structure"></a>📂 Repository Structure</h2>
+
+
+<h2><a id="research-questions-key-findings"></a>🔬 Research Questions & Key Findings</h2>
+
 1️⃣ Brands Needing Pricing or Promotional Adjustments
 
 - 198 brands show low sales but high margins — ideal candidates for promotions or pricing strategy changes.
@@ -125,7 +140,7 @@ Implication:
 → Low-performing vendor margins can be optimized
 → High-volume vendors can reduce cost inefficiencies
 
-📝 Further Recommendations
+<h2><a id="further-recommendations"></a>📝 Further Recommendations</h2>
 
 - Diversify vendors to reduce dependency risks
 
