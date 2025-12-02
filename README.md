@@ -69,6 +69,26 @@ This removed loss-making or unsold products for clearer insights.
 
 <h2><a id="repository-structure"></a>📂 Repository Structure</h2>
 
+```
+Vendor Performance Data Analytics
+├── dashboard/
+│   └── Vendor_Performance_Dashboard.pbix
+├── data/
+│   ├── begin_inventory.xlsx
+│   ├── end_inventory.xlsx
+│   ├── purchase_prices.xlsx
+│   ├── purchase.xlsx
+│   ├── sales.xlsx
+│   ├── vendor_invoice.xlsx
+│   └── vendor_sales_summary.xlsx
+├── notebook/
+│   ├── EDA.ipynb
+│   └── vendor performance analysis.ipynb
+├── scripts/
+│   ├── get_vendor.ipynb
+│   └── inventory.db
+└── Report.docx
+```
 
 <h2><a id="research-questions-key-findings"></a>🔬 Research Questions & Key Findings</h2>
 
